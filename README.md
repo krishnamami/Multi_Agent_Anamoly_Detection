@@ -42,6 +42,7 @@ Implement a Multi-Agent AI framework to automate the detection of outliers and d
 
 * Gained hands-on experience with LangGraph and LangChain, including state management across agents.
 * Proven effective for non-critical production applications with potential for scale.
+* Inspired AI-driven incident management system tailored for Data Engineers, enabling automated resolution of production failures and achieving a 30% boost in productivity.
 
 ### Next Steps 
 
