@@ -17,9 +17,9 @@ The system is built to:
      
    * Define thresholds as:
      
-       -->Upper Threshold = 200% of historical daily average maximum
+       -->Upper Threshold = 200% of highest historical daily average maximum
      
-       -->Lower Threshold = 50% of historical daily average minimum
+       -->Lower Threshold = 50% of lowest historical daily average minimum
   
  * Detection Window:
 
@@ -36,7 +36,7 @@ The system is built to:
 ### Agent Roles & Responsibilities
 
 * Supervisor Agent :
-   * Coordinates and monitors the execution of all agents.
+   * Co-ordinates and monitors the execution of all agents.
 * Stats Agent :
    * Cleans data, calculates monthly daily averages, and defines thresholds per segment.
 * Analyst Agent :
