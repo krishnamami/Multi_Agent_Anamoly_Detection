@@ -42,7 +42,7 @@ The system is built to:
 * Analyst Agent :
    * Processes recent data to compute daily averages and compares them against thresholds.
 * File Checker Agent:
-   * Verifies the completion of Stats and Analyst tasks and reports back to the Superviso.
+   * Verifies the completion of Stats and Analyst tasks and reports back to the Supervisor Agent.
  
 ### Learnings
 
