@@ -2,9 +2,10 @@
 #  Multi-Agent AI Framework for Outlier Detection
 
 ## Objective:
-This project demonstrates a Multi-Agent AI Framework designed to automate the detection of data anomalies and deviations using deterministic methods. 
+A next-generation anomaly detection framework powered by a **Multi-Agent AI architecture**. This system uses intelligent agents that work in parallel to monitor, classify, and escalate anomalies across business metrics enabling near real-time observability and intelligent incident triage.
 
-The system is built to:
+
+This project introduces a **multi-agent orchestration model** to::
  * Reduce manual monitoring and investigation
  * Detect issues early with high accuracy
  * Proactively notify stakeholders to prevent revenue and productivity loss
@@ -43,10 +44,16 @@ The system is built to:
    * Processes recent data to compute daily averages and compares them against thresholds.
 * File Checker Agent:
    * Verifies the completion of Stats and Analyst tasks and reports back to the Supervisor Agent.
- 
-### Learnings
 
-* Hands-on experience with LangGraph and LangChain, including agent state management.
+### Tech Stack:
+- **Languages**: Python  
+- **Frameworks**: LangGraph, LangChain 
+- **Infrastructure**: Airflow
+
+ 
+### Outcomes
+
+* Hands-on experience with LangGraph and LangChain and its architecture, including agent state management.
 * Effective for non-critical production applications.
 * Inspired the creation of an AI-powered incident management system for Data Engineers:
    * Achieved 30% improvement in engineering productivity.
@@ -57,5 +64,19 @@ The system is built to:
 * Integrate Agentic RAG (Retrieval-Augmented Generation) for contextual decisioning.
 * Explore managed service deployment with observability and guardrails.
 
+##  How to Run (Local Simulation)
+
+git clone https://github.com/krishnamami/Multi_Agent_Anamoly_Detection.git cd Multi_Agent_Anamoly_Detection python agents.py
+
+## Related Projects
+* Fine_Tuning_LLM
+* Markov_Chain_Attribution
+## Author Krishna Goud
+
+Head of Data Engineering & MLOps | Rocket LA
+
+Delivering $4B+ business impact via AI-first, scalable, real-time data systems
+
+[LinkedIn](https://www.linkedin.com/in/krishnagoud)
 
   
